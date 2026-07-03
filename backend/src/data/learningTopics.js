@@ -1,0 +1,77 @@
+export const LEARNING_TOPICS = {
+  "Operating System": [
+    {
+      title: "Process Management",
+      url: "https://www.youtube.com/watch?v=2dJdHMpCLIg&t=5s",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/2dJdHMpCLIg/maxresdefault.jpg",
+    },
+    {
+      title: "Threads",
+      url: "https://www.youtube.com/watch?v=ITc09gOrqZk&t=2s",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/ITc09gOrqZk/maxresdefault.jpg",
+    },
+    {
+      title: "CPU Scheduling",
+      url: "https://www.youtube.com/watch?v=zFnrUVqtiOY&t=1s",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/zFnrUVqtiOY/maxresdefault.jpg",
+    },
+    {
+      title: "Deadlock",
+      url: "https://www.youtube.com/watch?v=rWFH6PLOIEI",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/rWFH6PLOIEI/maxresdefault.jpg",
+    },
+    {
+      title: "Memory Management",
+      url: "https://www.youtube.com/watch?v=eESIFJz7mJw&list=PLr22VAqXtH4PUjHTRu4xaPw--_cCLfRO4",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/eESIFJz7mJw/maxresdefault.jpg",
+    },
+    {
+      title: "Paging",
+      url: "https://www.youtube.com/watch?v=6c-mOFZwP_8",
+      duration: "One-shot",
+      image: "https://img.youtube.com/vi/6c-mOFZwP_8/maxresdefault.jpg",
+    },
+  ],
+  DBMS: [
+    { title: "SQL Basics", url: "https://www.youtube.com/watch?v=UOJZTqA5Loc", duration: "One-shot", image: "https://img.youtube.com/vi/UOJZTqA5Loc/maxresdefault.jpg" },
+    { title: "Normalization", url: "https://www.youtube.com/watch?v=5GDTIUVlHB8", duration: "One-shot", image: "https://img.youtube.com/vi/5GDTIUVlHB8/maxresdefault.jpg" },
+    { title: "Joins", url: "https://www.youtube.com/watch?v=Yh4CrPHVBdE", duration: "One-shot", image: "https://img.youtube.com/vi/Yh4CrPHVBdE/maxresdefault.jpg" },
+    { title: "Transactions", url: "https://www.youtube.com/watch?v=a6KIAX5Aubg&list=PLEwMbEiHdJ2y1YRbjbhOSr6AEGF3sqhwV", duration: "One-shot", image: "https://img.youtube.com/vi/a6KIAX5Aubg/maxresdefault.jpg" },
+    { title: "Indexing", url: "https://www.youtube.com/watch?v=SxHX1T53n_A", duration: "One-shot", image: "https://img.youtube.com/vi/SxHX1T53n_A/maxresdefault.jpg" },
+  ],
+  OOPS: [
+    { title: "Encapsulation", url: "https://www.youtube.com/watch?v=SCbWyagwHMA", duration: "One-shot", image: "https://img.youtube.com/vi/SCbWyagwHMA/maxresdefault.jpg" },
+    { title: "Inheritance", url: "https://www.youtube.com/watch?v=ipd4SQY0Ehg", duration: "One-shot", image: "https://img.youtube.com/vi/ipd4SQY0Ehg/maxresdefault.jpg" },
+    { title: "Polymorphism", videoId: "bSrm9RXwBaI", url: "https://www.youtube.com/watch?v=bSrm9RXwBaI", duration: "10:00", image: "https://img.youtube.com/vi/bSrm9RXwBaI/maxresdefault.jpg" },
+    { title: "Abstraction", url: "https://www.youtube.com/watch?v=mlIUKyZIUUU&t=6505s", duration: "One-shot", image: "https://img.youtube.com/vi/mlIUKyZIUUU/maxresdefault.jpg" },
+  ],
+  DSA: [
+    { title: "Arrays", url: "https://www.youtube.com/watch?v=sNrLlmOIn-c", duration: "One-shot", image: "https://img.youtube.com/vi/sNrLlmOIn-c/maxresdefault.jpg" },
+    { title: "Linked List", url: "https://www.youtube.com/watch?v=LyuuqCVkP5I&list=PLGjplNEQ1it-OKRcYlCEDpTiIB1YOcvn6", duration: "One-shot", image: "https://img.youtube.com/vi/LyuuqCVkP5I/maxresdefault.jpg" },
+    { title: "Stack", url: "https://www.youtube.com/watch?v=tqQ5fTamIN4", duration: "One-shot", image: "https://img.youtube.com/vi/tqQ5fTamIN4/maxresdefault.jpg" },
+    { title: "Queue", url: "https://www.youtube.com/watch?v=tqQ5fTamIN4", duration: "One-shot", image: "https://img.youtube.com/vi/tqQ5fTamIN4/maxresdefault.jpg" },
+    { title: "Trees", url: "https://www.youtube.com/watch?v=_ANrF3FJm7I&list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu", duration: "One-shot", image: "https://img.youtube.com/vi/_ANrF3FJm7I/maxresdefault.jpg" },
+    { title: "Graphs", url: "https://www.youtube.com/watch?v=M3_pLsDdeuU", duration: "One-shot", image: "https://img.youtube.com/vi/M3_pLsDdeuU/maxresdefault.jpg" },
+    { title: "Dynamic Programming", url: "https://www.youtube.com/watch?v=Z8USYkiRvZw", duration: "One-shot", image: "https://img.youtube.com/vi/Z8USYkiRvZw/maxresdefault.jpg" },
+  ],
+  "Web Development": [
+    { title: "HTML", videoId: "qz0aGYrrlh8", url: "https://www.youtube.com/watch?v=qz0aGYrrlh8", duration: "12:00", image: "https://img.youtube.com/vi/qz0aGYrrlh8/maxresdefault.jpg" },
+    { title: "CSS", videoId: "1PnVor36_40", url: "https://www.youtube.com/watch?v=1PnVor36_40", duration: "15:00", image: "https://img.youtube.com/vi/1PnVor36_40/maxresdefault.jpg" },
+    { title: "JavaScript", videoId: "PkZNo7MFNFg", url: "https://www.youtube.com/watch?v=PkZNo7MFNFg", duration: "25:00", image: "https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg" },
+    { title: "React", videoId: "Tn6-PIqc4IM", url: "https://www.youtube.com/watch?v=Tn6-PIqc4IM", duration: "30:00", image: "https://img.youtube.com/vi/Tn6-PIqc4IM/maxresdefault.jpg" },
+    { title: "Node.js", videoId: "TlB_eWDSMt4", url: "https://www.youtube.com/watch?v=TlB_eWDSMt4", duration: "20:00", image: "https://img.youtube.com/vi/TlB_eWDSMt4/maxresdefault.jpg" },
+    { title: "REST APIs", videoId: "LSMQOJA870s", url: "https://www.youtube.com/watch?v=LSMQOJA870s", duration: "14:00", image: "https://img.youtube.com/vi/LSMQOJA870s/maxresdefault.jpg" },
+  ],
+  "System Design": [
+    { title: "Load Balancer", videoId: "K0Ta65OqkBQ", url: "https://www.youtube.com/watch?v=K0Ta65OqkBQ", duration: "12:00", image: "https://img.youtube.com/vi/K0Ta65OqkBQ/maxresdefault.jpg" },
+    { title: "Caching", videoId: "U3RkDLtS7uY", url: "https://www.youtube.com/watch?v=U3RkDLtS7uY", duration: "11:30", image: "https://img.youtube.com/vi/U3RkDLtS7uY/maxresdefault.jpg" },
+    { title: "Database Scaling", videoId: "dkhHzcNZoEw", url: "https://www.youtube.com/watch?v=dkhHzcNZoEw", duration: "15:00", image: "https://img.youtube.com/vi/dkhHzcNZoEw/maxresdefault.jpg" },
+    { title: "Microservices", videoId: "jXgqf4wH4eU", url: "https://www.youtube.com/watch?v=jXgqf4wH4eU", duration: "18:00", image: "https://img.youtube.com/vi/jXgqf4wH4eU/maxresdefault.jpg" },
+    { title: "CAP Theorem", videoId: "_RbsFXWRZ10", url: "https://www.youtube.com/watch?v=_RbsFXWRZ10", duration: "10:00", image: "https://img.youtube.com/vi/_RbsFXWRZ10/maxresdefault.jpg" },
+  ],
+};
